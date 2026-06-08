@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-5, 빈민가에서의 마지막</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg-day-display" class="bg-day-text">D-5</div>
+
+    <div class="game-container">
+        <div id="day-splash-overlay">
+            <div id="day-splash-text" class="day-splash-text"></div>
+        </div>
+
+        <header class="game-header">
+            <div class="status-label">HUMAN DIGNITY (인간의 존엄성)</div>
+            <div class="gauge-container">
+                <div id="dignity-bar" class="gauge-bar" style="width: 25%;"></div>
+            </div>
+            <div id="status-effects" class="effects-zone"></div>
+        </header>
+
+        <div class="game-main-wrapper">
+            <div id="current-story-box"></div>
+            
+            <div id="history-scroll-box">
+                <div class="history-log" id="history-container"></div>
+            </div>
+        </div>
+
+        <footer class="game-footer">
+            <div id="choice-box" class="choice-container"></div>
+        </footer>
+    </div>
+
+    <div id="overlay" class="fullscreen-overlay hidden">
+        <div id="overlay-text" class="overlay-message"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
